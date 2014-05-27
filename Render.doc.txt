@@ -1,0 +1,8 @@
+<- Render ----------------------------------------------------------------------
+	public function			__construct(array $kwargs)
+		width && height && filename
+	public function			develop()
+	public function			renderMesh($mesh, $mode)
+	public function			renderVertex($vtx)
+
+---------------------------------------------------------------------- Render ->

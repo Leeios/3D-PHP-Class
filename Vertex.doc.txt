@@ -1,0 +1,20 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles Vertex with color.
+
+An instance can be contructed from x, y, z values:
+new Vertex(array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ));
+
+By default color is white (255, 255, 255) but you can change this value in construct:
+$blue = new Color(array('red'=>0, 'green'=>0, 'blue'=>255));
+new Vertex(array('x'=>1.0, 'y'=>0.0, 'z'=>0.0, 'color'=>$blue));
+
+By default w (Homogeneous coordinates) is 1.0 but you can change this value in construct:
+new Vertex(array('x'=>1.0, 'y'=>0.0, 'z'=>0.0, 'w'=>2.0));
+
+color attribute is class Color
+
+The class provides the following methods :
+
+Accessors & mutators for each attributes
+getX, setX, getColor, setColor, etc.
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,20 @@
+<- Matrix ----------------------------------------------------------------------
+	public function		__construct(array $kwargs)
+			self::IDENTITY
+			self::SCALE && scale
+			self::RX && angle
+			self::RY && angle
+			self::RZ && angle
+			self::TRANSLATION && vtc
+			self::PROJECTION
+				&& fov
+				&& ratio
+				&& near
+				&& far
+
+	public function			getTab()
+	public function transformVertex(Vertex $vtx)
+	public function transformMesh(array $mesh)
+	public function			transpose()
+	public function			mult(Matrix $rhs)
+---------------------------------------------------------------------- Matrix ->

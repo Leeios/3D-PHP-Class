@@ -1,0 +1,18 @@
+<- Vector ----------------------------------------------------------------------
+The vector class handle vectors.
+
+An instance can be contructed from Vertex value:
+new Vector( array( 'dest' => Vertex [, 'orig' => Vertex ) );
+
+The class provides the following methods :
+
+Accessors for each attribute
+magnitude()
+normalize()
+add(Vector $rhs)
+sub(Vector $rhs)
+opposite()
+scalarProduct($k) // $k float
+dotProduct($rhs)
+cos(Vector $rhs)
+---------------------------------------------------------------------- Vector ->

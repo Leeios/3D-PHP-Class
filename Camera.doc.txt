@@ -1,0 +1,6 @@
+<- Camera ----------------------------------------------------------------------
+	public function			__construct(array $kwargs)
+		origin && orientatioin && fov && near && far && (ratio || width && height)
+	public function			watchVertex(Vertex $worldVertex)
+	public function			watchMesh(array $worldMesh)
+---------------------------------------------------------------------- Camera ->
