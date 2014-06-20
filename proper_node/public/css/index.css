@@ -1,0 +1,6 @@
+body {
+	background-image: url("../img/42back.gif");
+}
+canvas {
+	border: 1px solid black;
+}
